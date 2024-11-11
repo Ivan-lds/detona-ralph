@@ -50,8 +50,8 @@ img {
 }
 
 .square {
-  width: 230px;
-  height: 180px;
+  width: 240px;
+  height: 190px;
   border: 0.1rem solid #000000;
   background-color: aquamarine;
 }
@@ -87,8 +87,8 @@ h2 {
   }
 
   .square {
-    width: 125px;
-    height: 140px;
+    width: 115px;
+    height: 130px;
     border: 0.1rem solid #000000;
     background-color: aquamarine;
   }
