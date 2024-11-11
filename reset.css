@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Press Start 2P", system-ui;
+  font-size: 100%;
+  vertical-align: baseline;
+  color: inherit;
+  background: none;
+  text-decoration: none;
+  list-style: none;
+  line-height: 1.5;
+}
+
+/* HTML5 Elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Imagens, Vídeos e Iframes */
+img,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Tabelas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Formulários e Botões */
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: 100%;
+  color: inherit;
+  background: none;
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+}
+textarea {
+  resize: vertical;
+}
+
+/* Blockquotes */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+}
